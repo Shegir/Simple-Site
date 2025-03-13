@@ -116,7 +116,29 @@ height: 50px;
 display: flex;
 gap: 49px;
 }
-
+.numbers_text_group {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.numbers_items_text_1 {
+    display: flex;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+.numbers_items_text_2 {
+    display: flex;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
    
 .video {
     padding-top: 112px;
