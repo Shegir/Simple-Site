@@ -16,7 +16,7 @@ p {
     background-color: #EEEFF1;
     padding-top: 79px;
     padding-left: 399px;
-
+    box-sizing: border-box;
 }
 .nav_menu {
     display: flex;
@@ -71,20 +71,19 @@ color: #ffffff;
 }
 
 .about-me {
-    height: 300px;
+    padding-top: 112px;
+    height: 369px;
+    box-sizing: border-box;
     background: #f9f9f9;
    }
    .about-me_proportions {
-    width: 540;
-    height: 147;
-    top: 812px;
-    left: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
    }
 .about-me_tittle {
-    margin-top: 112px;
-   margin-right: 759px;
-width: 403;
-height: 30;
 font-family: Roboto;
 font-weight: 500;
 font-size: 32px;
@@ -96,8 +95,6 @@ color: #000000;
 .about-me_text {
     width: 540px;    
     height: 67px;
-margin-top: 50px;
-margin-left: 690px;
 font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
@@ -107,34 +104,37 @@ text-align: center;
 color: #727272;
 }
 .numbers {
-    
 height: 250px;
-top: 1059px;
+display: flex;
+justify-content: center;
+align-items: center;
 background: #34547A;
 }
-.numbers_item_1 {
-width: 141px;
-height: 50px; 
-margin-left: 409px;
-}
+
 .numbers_items {
-width: 141px;
 height: 50px;
-margin-left: 595px;
 display: flex;
 gap: 49px;
 }
+
    
 .video {
+    padding-top: 112px;
+    box-sizing: border-box;
     height: 1004px;
     background: #EEEFF1;
-    top: 1039px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+
 }
 .tx_1 {
+    
     width: 403px;
     height: 30px;
-    margin-top: 100px;
-    margin-left: 758px;
     font-family: Roboto;
 font-weight: 500;
 font-size: 32px;
@@ -147,8 +147,6 @@ text-align: center;
 .tx_2 {
     width: 540px;
     height: 67px;
-    margin-top: 180px;
-    margin-left: 690px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -158,47 +156,53 @@ text-align: center;
     color: #000000;
 }
 .rectangle_5 {
+    position: relative;
     width: 1110px;
     height: 600px;
-    margin-top: 57px;
-    margin-left: 405px;
+    margin: auto;
+    
     background: #000000A6;
 }
 .video_button {
     width: 100px;
     height: 100px;
-    margin-top: 250px;
-    margin-left: 910px;
- 
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .footer {
+    padding-top: 50px;
+    padding-left: 406px;
     height: 151px;
     background: #34547A;
-    top: 2313px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;   
+   
+    gap: 20px;
    }
 
 .footer_tittle {
-    margin-top: 50px;
-   margin-left: 406px;
-width: 219;
+    width: 219;
 height: 19;
 font-family: Roboto;
 font-weight: 500;
 font-size: 21px;
 line-height: 100%;
 letter-spacing: 0%;
-background: #FFFFFF;
+color: #FFFFFF;
 }
 
 .footer_text {
     width: 193px;    
     height: 12px;
-margin-top: 89px;
-margin-left: 406px;
 font-family: Roboto;
 font-weight: 400;
 font-size: 13px;
 line-height: 164%;
 letter-spacing: 0%;
-background: #FFFFFF;
+color: #FFFFFF;
 }
